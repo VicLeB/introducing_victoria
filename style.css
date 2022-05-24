@@ -81,12 +81,9 @@ p {
 
 /* MAIN BODY STYLES FOR PROJECTS PAGE */
 
-img#puppy-image {
+#puppy-image {
     display: none;
     padding-left: 30px;
     width: 300px;
 }
 
-button {
-   
-}
