@@ -1,23 +1,30 @@
-/* header and links styles */
+/* HEADER AND NAVIGATION LINKS STYLES */
 header {
-    background-color: rgb(55, 117, 37);
-    color: rgb(240, 179, 216);
-    display: block;
+    background-color: #7097AB ;
+    color: #ECD59F;
+    display: block; 
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 20px;
-    height: 100%;
-    margin: 0%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 100%;
 }
-
+/* this removed the background color appearing above header*/
 h1.header {
+    color: #ECD59F;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin: 0%;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 nav a {
     padding-left: 15px;
     padding-right: 15px;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 nav a:hover {
@@ -26,21 +33,24 @@ nav a:hover {
 }
 
 a:link {
-    color:rgb(240, 179, 216)
+    color: #ECD59F;
 }
 
 a:visited {
     color: rgb(49, 61, 171);
-}
+} 
 
-/* main body styles for home page */
+/* MAIN BODY STYLES FOR HOME PAGE */
 body {
-    background: rgb(159, 210, 139);
+    background: #ABD1DC;
     margin: 0%;
 }
 
-h1 .header {
+h1 {
+    color: #4d6d7d;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 35px;
+    padding-left: 5px;
 }
 
 img#Profile-Photo {
@@ -50,10 +60,33 @@ img#Profile-Photo {
     width: 500px;
 }
 
-section p#homeText {
+p#homeText {
+    color: #4d6d7d ;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 20px;
-    margin-top: 25%;
+    font-weight: 700;
+    margin-top: 300px;
     text-align: center;
 }
 
+/* MAIN BODY STYLES FOR BLOG PAGE */
+
+p {
+    color: #4d6d7d ;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* MAIN BODY STYLES FOR PROJECTS PAGE */
+
+img#puppy-image {
+    display: none;
+    padding-left: 30px;
+    width: 300px;
+}
+
+button {
+   
+}
