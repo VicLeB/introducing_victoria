@@ -1,13 +1,59 @@
+/* header and links styles */
 header {
-    background-color: rgb(144, 177, 118);
+    background-color: rgb(55, 117, 37);
+    color: rgb(240, 179, 216);
+    display: block;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    height: 100%;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
 }
 
+h1.header {
+    margin: 0%;
+}
+
+nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    background-color: rgb(241, 230, 230);
+    color: black;
+}
+
+a:link {
+    color:rgb(240, 179, 216)
+}
+
+a:visited {
+    color: rgb(49, 61, 171);
+}
+
+/* main body styles for home page */
 body {
-    background: rgb(46, 126, 12);
+    background: rgb(159, 210, 139);
+    margin: 0%;
 }
 
-h1 {
-    font-family: cursive;
-    font-style: italic;
+h1 .header {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+img#Profile-Photo {
+    border: 5px solid rgb(248, 241, 241);
+    border-radius: 4px;
+    float: left;
+    width: 500px;
+}
+
+section p#homeText {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    margin-top: 25%;
     text-align: center;
 }
+
