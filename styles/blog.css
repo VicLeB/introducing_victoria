@@ -1,0 +1,9 @@
+/* MAIN BODY STYLES FOR BLOG PAGE */
+
+p {
+    color: #4d6d7d ;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
