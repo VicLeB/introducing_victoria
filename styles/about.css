@@ -1,3 +1,8 @@
+h2 {
+    font-style: italic;
+    font-size: 30px;
+}
+
 .image-container {
     position: relative;
     width: 550px;
@@ -13,10 +18,13 @@
 } 
 
 .image-text-container {
+    font-weight: bold;
+    opacity: 0;
     padding: 10px;
     position: absolute;
     text-align: center;
     top: 0;
+    transition: opacity 500ms;
 }
 
 .container {
@@ -36,7 +44,3 @@
     object-fit: fill;
     width: 100%;
 } 
-
-#countries-text {
-    opacity: 0;
-}
