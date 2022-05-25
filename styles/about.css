@@ -1,19 +1,39 @@
 .image-container {
     position: relative;
-    width: 500px;
+    width: 550px;
     height: 500px;
 }
 
 .image {
-    width: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
     height: 100%;
+    object-fit: cover;
+    width: 100%;
 } 
 
 .image-text-container {
+    padding: 10px;
     position: absolute;
+    text-align: center;
     top: 0;
 }
 
 .container {
     display: flex;
+    justify-content: space-between;
 }
+
+#countries-container {
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+#image-countries {
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
+} 
+
